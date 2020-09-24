@@ -6,6 +6,7 @@ RUN sdkmanager "tools" "platform-tools"
 
 RUN yes | sdkmanager --update --channel=3
 
+#Modify this as you want. You could even remove it and pass these dependencies as external volume
 RUN yes | sdkmanager \
     "platforms;Android-28" \
     "build-tools;28.0.3" \
