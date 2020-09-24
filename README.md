@@ -19,7 +19,8 @@ gcloud init
 ```
 
 ### Enable required APIs
-Now it’s time to create a service account with an “editor” role in the Google Cloud Platform and enable Google Cloud Testing API and Google Cloud Results API before you try to deploy anything. Later, in your Google Cloud Console go to “Credentials” > “Create Credentials” > “Create Service Account Key” and fill the data with the role “owner” and select key type as JSON.
+Now it’s time to create a service account with an “editor” role in the [Google Cloud Platform](https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts?pli=1&supportedpurview=project) and enable [Google Cloud Testing API and Google Cloud Results API](https://console.developers.google.com/apis/library?pli=1) before you try to deploy anything. Later, in your Google Cloud Console go to “Credentials” > “Create Credentials” > “Create Service Account Key” and fill the data with the role “owner” and select key type as JSON.
+
 
 ## 3. Assemble you APKs and deploy
 This is the repetitive task that ideally, you should automate in your CI with a script
