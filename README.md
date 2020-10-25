@@ -33,10 +33,6 @@ This is the repetitive task that ideally, you should automate in your CI with a 
 ```Bash
 gcloud auth activate-service-account -q --key-file myfile.json
 ```
-* Pass the firebase project ID to Google Cloud
-```Bash
-gcloud config set project $FIREBASE_ID_PROJECT
-```
 * Upload APK's
 ```Bash
 APK="--app=debug.apk --test=androidTest.apk"
