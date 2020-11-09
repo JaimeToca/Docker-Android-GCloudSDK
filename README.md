@@ -3,7 +3,7 @@
 For more information [check this article on my website](https://www.jaimetoca.com/docker-firebase-testlab-gcloud/)
 
 ### Compile Dockerfile
-Docker image with Android and Google Cloud SDK for Firebase Test Lab
+**Important: The Docker image from this repository is deprecated, instead you should [use this one](https://github.com/thyrlian/AndroidSDK/blob/master/android-sdk/firebase-test-lab/Dockerfile)**
 
 ```Bash
 #Compile image
