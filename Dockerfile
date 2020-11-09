@@ -1,3 +1,6 @@
+#This Docker image is deprecated please use this one
+#https://github.com/thyrlian/AndroidSDK/blob/master/android-sdk/firebase-test-lab/Dockerfile
+
 FROM thyrlian/Android-sdk-vnc: latest
 
 LABEL maintainer "jaime.toca.munoz@gmail.com"
